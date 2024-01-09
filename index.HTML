@@ -81,56 +81,53 @@ var a = 0;
 
 
 function diceone() {
-document.getElementById("diceone").src = "1.png";
-document.getElementById("diceone").src = "2.png";
-document.getElementById("diceone").src = "3.png";
-document.getElementById("diceone").src = "4.png";
-document.getElementById("diceone").src = "5.png";
-document.getElementById("diceone").src = "6.png";
+document.getElementById("diceone").src = "number 1.png";
+document.getElementById("diceone").src = "number 2.png";
+document.getElementById("diceone").src = "number 3.png";
+document.getElementById("diceone").src = "number 4.png";
+document.getElementById("diceone").src = "number 5.png";
+document.getElementById("diceone").src = "number 6.png";
 
 
 one = (Math.floor(Math.random() * 6)+1);
 
 if (one == 1) 
-    {document.getElementById("diceone").src = "1.png";}
+    {document.getElementById("diceone").src = "number 1.png";}
 
     if (one == 2) 
-    {document.getElementById("diceone").src = "2.png";}
+    {document.getElementById("diceone").src = "number 2.png";}
 
     if (one == 3) 
-    {document.getElementById("diceone").src = "3.png";}
+    {document.getElementById("diceone").src = "number 3.png";}
 
     if (one == 4) 
-    {document.getElementById("diceone").src = "4.png";}
+    {document.getElementById("diceone").src = "number 4.png";}
 
     if (one == 5) 
-    {document.getElementById("diceone").src = "5.png";}
+    {document.getElementById("diceone").src = "number 5.png";}
 
     if (one == 6) 
-    {document.getElementById("diceone").src = "6.png";}
-
-
- 
+    {document.getElementById("diceone").src = "number 6.png";}
 
 two = (Math.floor(Math.random() * 6)+1);
 
 if (two == 1) 
-    {document.getElementById("dicetwo").src = "1.png";}
+    {document.getElementById("dicetwo").src = "number 1.png";}
 
     if (two == 2) 
-    {document.getElementById("dicetwo").src = "2.png";}
+    {document.getElementById("dicetwo").src = "number 2.png";}
 
     if (two == 3) 
-    {document.getElementById("dicetwo").src = "3.png";}
+    {document.getElementById("dicetwo").src = "number 3.png";}
 
     if (two == 4) 
-    {document.getElementById("dicetwo").src = "4.png";}
+    {document.getElementById("dicetwo").src = "number 4.png";}
 
     if (two == 5) 
-    {document.getElementById("dicetwo").src = "5.png";}
+    {document.getElementById("dicetwo").src = "number 5.png";}
 
     if (two == 6) 
-    {document.getElementById("dicetwo").src = "6.png";}
+    {document.getElementById("dicetwo").src = "number 6.png";}
 
 document.getElementById("amountrolled").innerHTML = " You rolled a " + (one + two );
 
@@ -175,14 +172,14 @@ document.getElementById("rolledthemost").innerHTML = mynumberarray[inputone.valu
 <body>
     
 <div class = "diceone">
-<img src = "1.png" id = "diceone">
+<img src = "number 1.png" id = "diceone">
 
 </div>
 
 
 
 <div class = "dicetwo">
-<img src = "1.png" id = "dicetwo">
+<img src = "number 1.png" id = "dicetwo">
 
 </div>
 
@@ -203,7 +200,7 @@ document.getElementById("rolledthemost").innerHTML = mynumberarray[inputone.valu
 </div>
 
 <div class = "buttonone"> 
-<button onclick = "diceone()">  Press me to roll the dice! </button>
+<button onclick = "diceone()">  CLick me to roll the dice! </button>
 
 </div>
 
