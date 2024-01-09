@@ -60,13 +60,11 @@ grid-column-start:2;
 grid-column-end: 3;   
 }
 
-
 .buttontwo {
 grid-row-start: 5;
 grid-row-end: 6;
 grid-column-start: 2;
 grid-column-end: 3;
-
 
 }
 
@@ -78,7 +76,6 @@ var two;
 var memory;
 var mynumberarray  = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
 var a = 0;
-
 
 function diceone() {
 document.getElementById("diceone").src = "number 1.png";
@@ -131,7 +128,6 @@ if (two == 1)
 
 document.getElementById("amountrolled").innerHTML = " You rolled a " + (one + two );
 
-
 if (one + two == 1) { mynumberarray[1]++;}
  if (one + two == 2) { mynumberarray[2]++;}
  if (one + two == 3) { mynumberarray[3]++;}
@@ -147,7 +143,6 @@ if (one + two == 1) { mynumberarray[1]++;}
 
 
 }
-
 
 function amountoftimesrolled() {
     
@@ -168,15 +163,12 @@ document.getElementById("rolledthemost").innerHTML = mynumberarray[inputone.valu
 
 </script>
 
-
 <body>
     
 <div class = "diceone">
 <img src = "number 1.png" id = "diceone">
 
 </div>
-
-
 
 <div class = "dicetwo">
 <img src = "number 1.png" id = "dicetwo">
@@ -189,10 +181,7 @@ document.getElementById("rolledthemost").innerHTML = mynumberarray[inputone.valu
     
     </div>
 
-
-<div class = "amountoftimesrolled"> </div>
-
-
+<div class = "amountoftimesrolled"> </div
 <div class = "inputone"> 
 <input id = "inputone">
 
@@ -200,7 +189,7 @@ document.getElementById("rolledthemost").innerHTML = mynumberarray[inputone.valu
 </div>
 
 <div class = "buttonone"> 
-<button onclick = "diceone()">  CLick me to roll the dice! </button>
+<button onclick = "diceone()">  Click me to roll the dice! </button>
 
 </div>
 
